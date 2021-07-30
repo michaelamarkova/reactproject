@@ -1,0 +1,20 @@
+button {
+  background-color: transparent;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 118, 39) 0%,
+    rgb(255, 154, 39) 100%
+  );
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+Button:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+  transition: 250ms;
+}
